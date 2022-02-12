@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<meta charset="UTF-8"> 
+<title>Soul Achieve</title> 
+<meta name="viewport" content="width=device-width,initial-scale=1"> 
+<link rel="icon" type="image/x-icon" href="image/logo.png">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> --> 
+<link rel="stylesheet" href="css/w3css.css"> 
+<link href='https://fonts.googleapis.com/css?family=The Nautigal' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Luxurious Roman' rel='stylesheet'>
+<link rel="stylesheet" href="css/background.css">
+<link href="css/blogs.css" rel="stylesheet">
+<link href="css/mycss.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.fa {
+  padding: 10px;
+  font-size:25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 25%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-youtube-play {
+  color:red;
+}
+
+.fa-whatsapp {
+  color: #04AA6D;
+}
+
+.fa-instagram {
+  color:wheat;
+}
+
+
+</style>
+
+<body class="w3-camo-green">
+    <!--logo starts-->
+    <div class="w3-row" style="background-color: black;">
+      <div class="w3-col s12 m2 l2">
+
+      </div>
+      <div class="w3-col s12 m2 l2 w3-center ">
+      <img src="image/logo.png" alt="Mr. salman" width="125px" height="125px" >
+
+      </div>
+      <div class="w3-col s12 m8 l8 w3-center" >
+          <p style="color: whitesmoke;font-family:The Nautigal;font-size: 10mm; padding: 2px;">
+              Soul Achieve
+          </p>
+          <p style="color: yellow;font-family: Luxurious Roman;">
+              A committed soul will achieve the goal.
+          </p>
+      </div>
+  </div>
+  <!--logo ends-->
+
+
+    <!--Top Navigation starts-->
+    <div class="topnav" id="navbar">
+      <a href="home.html" class="active" >Home</a>
+      <a href="project.html">Project</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="feedback.html" class="w3-right">Feedback</a>
+     </div>
+  <!--Top Navigation ends-->
+
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+   
+
+  
+
+  <!--Welcome starts-->
+  
+    <img src="image/welcome.png" alt="welcome" style="width: 100%;">
+ 
+
+  <!--Welcome ends-->
+    <p>
+      Home
+    </p>
+  <!--time starts-->
+  <div class="w3-row-padding">
+    <div class="w3-col s4">
+      <img src="image/logo.png" style="width:100%">
+    </div>
+    <div class="w3-col s4">
+      <img src="image/logo.png" style="width:100%">
+    </div>
+    <div class="w3-col s4">
+      <img src="image/logo.png" style="width:100%">
+    </div>
+    <div class="w3-col s4">
+      <img src="image/logo.png" style="width:100%">
+    </div>
+    <div class="w3-col s4">
+      <img src="image/logo.png" style="width:100%">
+    </div>
+    
+  </div>
+  
+  <!--time ends-->
+    <!--footer starts-->
+    <footer style="background: black;">
+      
+      <h3 style="text-align: center;">
+        Contact
+      </h3>
+
+      <div class="w3-row">
+        <div class="w3-col s12 m6 l6 w3-center">
+          <p>
+            
+            Mobile no: +91 7045141640
+            <br>
+           
+            Gmail Id: soulachieve@gmail.com
+          </p>
+        </div>
+
+        <div class="w3-col s12 m6 l6 w3-center" >
+          <p>
+            Socail Media:
+            <br>
+            <a href="#"> <i class="fa fa-instagram" ></i></a>
+            <a href="https://wa.me/917045141640" ><i class="fa fa-whatsapp"></i></a>
+            <a href="#" ><i class="fa fa-youtube-play" ></i></i></a>
+
+          </p>
+         
+        </div>
+      
+      </div>
+
+      <p style="text-align: center;padding: 5px;color: white;" class="w3-vivid-yellowish-green">
+        Copyright@soulachieve.in
+      </p>
+
+    </footer>
+    <!--footer ends-->
+
+</body>
+
+
+</html>
